@@ -1,0 +1,34 @@
+.playControl {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/play.png);
+}
+.playControl.playing {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/pause.png);
+}
+.skipControl__next {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/foward.png);
+}
+.skipControl__next {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/foward.png);
+}
+.skipControl__previous {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/back.png);
+}
+.shuffleControl::before {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/shuffle.png);
+}
+.repeatControl.m-none {
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/repeat.png);
+}
+.volume[data-level="1"] .volume__button, .volume[data-level="2"] .volume__button, .volume[data-level="3"] .volume__button, .volume[data-level="4"] .volume__button, .volume[data-level="5"] .volume__button {
+
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/volumelow.png);
+}
+.volume[data-level="6"] .volume__button, .volume[data-level="7"] .volume__button, .volume[data-level="8"] .volume__button, .volume[data-level="9"] .volume__button, .volume[data-level="10"] .volume__button {
+
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/volume.png);
+
+}
+.volume.muted .volume__button {
+
+    background-image: url(https://raw.githubusercontent.com/Xloade/inverted-buttons-for-soundcloud/master/volumemuted.png);
+}
